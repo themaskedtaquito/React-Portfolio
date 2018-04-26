@@ -1,0 +1,34 @@
+.Thumbnail:hover .Overview{
+	display: block;
+	cursor: pointer;
+}
+
+
+.Thumbnail a{
+	height: 250px;
+	width: 250px;
+}
+
+.Overview {
+	display: none;
+	position: absolute;
+	top: 108px;
+	color: #ededed;
+	background-color: rgba(100,100,100,0.9);
+	font-size: 16px;
+	line-height: 1.25;
+	width: 250px;
+	height: 250px;
+	text-align: left;
+}
+
+.Overview h3{
+	font-family: "Montserrat";
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.Overview p{
+	margin: 15px;
+}

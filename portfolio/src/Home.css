@@ -1,0 +1,17 @@
+.Home{
+	 color: black;
+	 font-family: "Open Sans";
+	 font-size: 16px;
+
+}
+
+.profile{
+	float: left;
+
+}
+
+.About{
+	text-align: left;
+	width: 40%;
+}
+

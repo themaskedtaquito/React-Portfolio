@@ -1,0 +1,36 @@
+.App{
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: #11aa37;
+  height: 30px;
+  text-align: center;
+}
+
+.Header{
+  display: flex;
+}
+
+.App a{
+  text-decoration: none;
+  padding:20px;
+}
+.App a:visited{
+  color: white;
+}
+.App a:hover{
+  text-decoration: underline;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  flex: 70%;
+}
+
+body{
+  background-color: white;
+}
+

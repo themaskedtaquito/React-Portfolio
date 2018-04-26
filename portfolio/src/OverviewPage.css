@@ -1,0 +1,8 @@
+.OverviewPage{
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+  	grid-template-rows: 250px 250px 250px;
+  	grid-column-gap: 50px;
+  	grid-row-gap: 50px;
+  	align-self: center;
+}
