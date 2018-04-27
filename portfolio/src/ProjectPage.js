@@ -32,7 +32,6 @@ class ProjectPage extends Component {
           </div>
 
           <div className = "details">
-          <button>Play!</button>
             <h2>Overview</h2>
             <div dangerouslySetInnerHTML={{ __html: this.props.project.description}} />
           </div>

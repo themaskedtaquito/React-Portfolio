@@ -6,10 +6,12 @@
   background-color: #11aa37;
   height: 30px;
   text-align: center;
+  
 }
 
 .Header{
   display: flex;
+
 }
 
 .App a{

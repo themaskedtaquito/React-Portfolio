@@ -2,12 +2,10 @@
 	 color: black;
 	 font-family: "Open Sans";
 	 font-size: 16px;
-
 }
 
 .profile{
 	float: left;
-
 }
 
 .About{
@@ -15,3 +13,7 @@
 	width: 40%;
 }
 
+.allProjects{
+	width:35%;
+	margin: auto;
+}

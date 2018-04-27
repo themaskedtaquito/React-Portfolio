@@ -13,8 +13,7 @@
     "tools": "Arduino, Adobe Illustrator, Photoshop",
     "language": "Python",
     "team": "1",
-    "role": "Designer, Programmer",
-    "featured": true
+    "role": "Designer, Programmer"
     },
     {
     "name": "Unowned Collected",
@@ -45,8 +44,7 @@
     "tools": "Unity3D",
     "language": "C#",
     "team": "4",
-    "role": "Lead Programmer, Co-designer",
-    "featured": true
+    "role": "Lead Programmer, Co-designer"
   },
   {
     "name": "GATE",
@@ -71,8 +69,7 @@
     "urlName":"ra",
     "images":["/Ra2.png","/Ra2.png"],
     "type":"media",
-    "description":"<p>A crossover between a New World of Darkness campaign and the real world.</p>",
-    "featured": true
+    "description":"<p>A crossover between a New World of Darkness campaign and the real world.</p>"
   },
   {
     "name": "Forest Fire",
