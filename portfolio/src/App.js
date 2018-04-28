@@ -67,7 +67,6 @@ class App extends Component {
 
           <Route path="/:type/:urlName"
             render={props => {
-              console.log("hello");
               const project = this.state.projects.find(
                 p => p.urlName == props.match.params.urlName
               );

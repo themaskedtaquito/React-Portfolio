@@ -15,21 +15,6 @@
     "team": "1",
     "role": "Designer, Programmer"
     },
-    {
-    "name": "Unowned Collected",
-    "overview": "A generated board game, created from the rules of several existing games.",
-    "thumbnail": "/UnownedCollected.png",
-    "urlName":"unowned",
-    "images":["/UnownedCollected.png","/UnownedCollected.png"],
-    "type":"games",
-    "description":"<p>My original idea was to make a board game by using the rule sets of existing games to generate my own rules, and I've pretty much stuck with the same idea throughout the process. I wanted to do this project for two main reasons. The first is that although this class is pretty much all about writing code, I wanted to have an output that had a physical form. The second reason is that I'm really passionate about games, and although I do really love video games, I also know that board games are in a bit of a 'renaissance' right now and I wanted to be a part of it. As a bit of background on that, board games are one of the most successful categories for Kickstarter, and in the U.S. at least there has been a renewed interest in board game cafes and tabletop stores.</p><p>Some of my inspiration also came from the games themselves. Although they are not generated games, many have generative aspects. Games like Carcassone, for example, do not come with a game board, but allow the players to build the playing field as the game progresses (most references to 'land tiles' in my game originated from Carcassone's rules). Another inspiration was a game I encountered in my Intro to Game Dev class called Life in the Garden, which is perhaps more story than game. The contents consists of a deck of cards, each with a couple of sentences on them. You shuffle them, draw a few, read them out, and a complete story can be made from any order. (http://www.electronicbookreview.com/thread/firstperson/edenic)</p>",
-
-    "platform": "Print",
-    "tools": "Adobe Illustrator, NLTK",
-    "language": "Python",
-    "team": "1",
-    "role": "Programmer"
-  },
 
   {
     "name": "Princess Liberation",
@@ -46,14 +31,30 @@
     "team": "4",
     "role": "Lead Programmer, Co-designer"
   },
+    {
+    "name": "Unowned Collected",
+    "overview": "A generated board game, created from the rules of several existing games.",
+    "thumbnail": "/UnownedCollected4.png",
+    "urlName":"unowned",
+    "images":["/UnownedCollected.png","/UnownedCollected2.png"],
+    "type":"games",
+    "description":"<p>My original idea was to make a board game by using the rule sets of existing games to generate my own rules, and I've pretty much stuck with the same idea throughout the process. I wanted to do this project for two main reasons. The first is that although this class is pretty much all about writing code, I wanted to have an output that had a physical form. The second reason is that I'm really passionate about games, and although I do really love video games, I also know that board games are in a bit of a 'renaissance' right now and I wanted to be a part of it. As a bit of background on that, board games are one of the most successful categories for Kickstarter, and in the U.S. at least there has been a renewed interest in board game cafes and tabletop stores.</p><p>Some of my inspiration also came from the games themselves. Although they are not generated games, many have generative aspects. Games like Carcassone, for example, do not come with a game board, but allow the players to build the playing field as the game progresses (most references to 'land tiles' in my game originated from Carcassone's rules). Another inspiration was a game I encountered in my Intro to Game Dev class called Life in the Garden, which is perhaps more story than game. The contents consists of a deck of cards, each with a couple of sentences on them. You shuffle them, draw a few, read them out, and a complete story can be made from any order. (http://www.electronicbookreview.com/thread/firstperson/edenic)</p>",
+
+    "platform": "Print",
+    "tools": "Adobe Illustrator, NLTK",
+    "language": "Python",
+    "team": "1",
+    "role": "Programmer"
+  },
   {
     "name": "GATE",
-    "overview": "A 2D puzzle platformer initially created for the game jam theme 'color'",
+    "overview": "A 2D puzzle platformer about grappling hooks initially created for the game jam theme 'color'",
     "thumbnail": "/gate.png",
     "urlName":"gate",
-    "images":["/gate.png","/gate.png"],
+    "images":["/gate2.png"],
     "type":"games",
     "description":"<p>This game was a project for my university's first 24 hour game jam, following the theme 'color'. My primary design goal was to create a fluid and dynamic feeling movement. The player's sole form of movement is by way of grappling hook. However, the player can only grapple to nodes that match the player's current color. Passing through a gate will change the player's color. If the player's color does not match the node when they arrive, they will fall down, instead of locking on to it.\n I am currently working to develop this prototype into a full game by designing more levels, creating more polished art and animations, and adapting the controls for mobile devices.</p>",
+    "video":"/gate2.gif",
 
     "platform": "In Development",
     "tools": "Unity3D",
@@ -61,33 +62,33 @@
     "team": "1",
     "role": "Designer, Programmer"
   },
+  {
+    "name": "Melding into Nothing",
+    "overview": "A series of programmatic photo-manipulations of the NYC skyline.",
+    "thumbnail": "/skyline.png",
+    "urlName":"nyc",
+    "images":["/melding1.gif","/melding2.gif"],
+    "type":"media",
+    "description":"<p>A E S T H E T I C</p><p>Pixelated vaporwave nonsense.</p>"
+  },
+  {
+    "name": "Forest Fire",
+    "overview": "A modular origami project elegizing California.",
+    "thumbnail": "/forestfire1.jpg",
+    "urlName":"forestfire",
+    "images":["/forestfire3.jpg","/forestfire2.jpg"],
+    "type":"media",
+    "description":"<p>Created by a Californian artist living in Asia, this project explores the beauty and destruction of wildfires through origami. Viewed from above, these origami trees resemble a colorful arrangement of flowers. From the side, however, their true form becomes cleaer.</p>"
+  },
 
   {
     "name": "Keepers of Ra",
     "overview": "A transmedia storytelling project born out of a tabletop RPG campaign.",
     "thumbnail": "/Ra2.png",
     "urlName":"ra",
-    "images":["/Ra2.png","/Ra2.png"],
+    "images":["/Ra.png","/Ra3.png","/Ra4.png"],
     "type":"media",
     "description":"<p>A crossover between a New World of Darkness campaign and the real world.</p>"
-  },
-  {
-    "name": "Forest Fire",
-    "overview": "A modular origami project elegizing California.",
-    "thumbnail": "/forestfire3.jpg",
-    "urlName":"forestfire",
-    "images":["/forestfire1.jpg","/forestfire2.jpg","/forestfire3.jpg"],
-    "type":"media",
-    "description":"<p>Created by a Californian artist living in Asia, this project explores the beauty and destruction of wildfires through origami. Viewed from above, these origami trees resemble a colorful arrangement of flowers. From the side, however, their true form becomes cleaer.</p>"
-  },
-  {
-    "name": "Melding into Nothing",
-    "overview": "A series of programmatic photo-manipulations of the NYC skyline.",
-    "thumbnail": "/skyline.png",
-    "urlName":"nyc",
-    "images":["/skyline.png","/skyline.png"],
-    "type":"media",
-    "description":"<p>A E S T H E T I C</p><p>Pixelated vaporwave nonsense.</p>"
   }
     ]
 }

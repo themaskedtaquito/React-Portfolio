@@ -6,14 +6,28 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 class ProjectPage extends Component {
   render() {
-    const imageReel = this.props.project.images.map(img=>{
+    let hasVideo;
+    if(this.props.project.video){
+        hasVideo=true;
+      }
+
+    let imageReel = this.props.project.images.map(img=>{
       return (
         <div>
           <img src = {img} />
         </div>
       )
-    })
+    });
+
+    if(hasVideo){
+      
+      imageReel.unshift(<div>
+          <img src = {this.props.project.video}/>
+        </div>);
+    };
+
     return (
+
       <div className="ProjectPage">
         <Carousel showThumbs = {false}  showStatus={false} infiniteLoop={true} width="600px">
           {imageReel}

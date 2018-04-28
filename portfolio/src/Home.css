@@ -5,7 +5,7 @@
 }
 
 .profile{
-	float: left;
+	display: flex;
 }
 
 .About{

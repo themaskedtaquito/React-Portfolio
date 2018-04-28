@@ -11,9 +11,11 @@ class Home extends Component {
   	});
     return (
       <div className="Home">
-        <figure className="profile"><img width = "150px" src = "me.jpg"/></figure>
+        <div className="profile">
+        	<figure><img width = "150px" src = "me.jpg"/></figure>
+        	<p className="About">I’m a programmer, game designer, and writer who likes to find creative ways to combine these three disciplines. </p>
+        </div>
         
-        <p className="About">I’m a programmer, game designer, and writer who likes to find creative ways to combine these three disciplines. </p>
         <div className="allProjects">
         	{view}
         </div>
