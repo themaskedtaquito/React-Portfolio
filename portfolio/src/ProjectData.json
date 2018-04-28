@@ -7,7 +7,7 @@
     "urlName":"excavatedevil",
     "images":["/excavatedevil.png","/excavatedevil.png"],
     "type":"games",
-    "description":"<p>Though board games have always been a traditional analog game format, there is no reason they can’t take advantage of the innovation that has occurred in the fields of video game design and digital computation. My project, Martyr, is one of the first explicitly hybrid digital board games. I created this project with the goal of identifying which characteristics of video games are most suitable to adapt into a board game environment</p><p>The premise of the game itself is that ghouls have been causing mysterious disappearances in Haven City. The players must explore the city to find holy items and hints as to where the ghouls are hiding. After the players believe they have pinpointed the correct location, they must bring the holy items there and purify the area to win the game.</p><p>One common trend in video games that Martyr leverages is procedural generation. Each time the game is played, the content of a given board location is different. Traditional board games replicate this effect through mechanics like shuffling and drawing from various card decks. The advantage of handling randomness with a computer is that it reduces the burden of the players. Rather than gathering cards together, shuffling them, and placing the decks in designated locations as setup, the players can focus on playing the game.</p>",
+    "description":"<p>My project explores ways that technological computation can be used to enhance the experience of playing a board game. A number of sensors are integrated into the board to track player actions and movement. This information is relayed to a built in computer which can then output relevant information to the players via a built in screen or through audio. This technology is unobtrusive, and players interact with the game in the same way that they would any other board game.<p>One trend in video games that Excavated Evil leverages is procedural generation. Each time the game is played, the content of a given board location is different. Traditional board games replicate this effect through mechanics like shuffling and drawing from various card decks. The advantage of handling randomness with a computer is that it reduces the burden of the players. Rather than gathering cards together, shuffling them, and placing the decks in designated locations as setup, the players can focus on playing the game.</p>",
 
     "platform": "Print",
     "tools": "Arduino, Adobe Illustrator, Photoshop",
@@ -23,7 +23,7 @@
     "urlName":"liberation",
     "images":["/princess.png"],
     "type":"games",
-    "description":"<p>Princess Liberation is a local multiplayer platformer game inspired by <a href ='https://onmogul.com/stories/this-time-the-dragon-saves-the-princess'>this</a> webcomic, in which a knight attempts to 'rescue' a princess from the evil dragon. In a subversion of the usual trope, it turns out that the princess and dragon are actually friends, and the dragon is protecting her from unsuitable suitors.</p><p>I worked together with a team of three other students to translate the web comic into a 2D platformer game. One player controls the knight, who has the ability to move, jump to platforms, and destroy obstacles with his sword. The dragon riding princess has the ability to shoot slowing bolts, breathe fireballs that knock the knight down a platform, and place obstacles.</p><p>One of the more experimental designs we implemented was making the knight's controls exclusive to the keyboard and the princess' exclusive to the mouse. Though the knight's controls are very traditional, using wasd and spacebar to jump, the Princess moves across the screen by using the scrollwheel, and all the rest of her abilities can be performed using right and left clicks.</p><p>My primary role was</p>",
+    "description":"<p>Princess Liberation is a local multiplayer platformer game inspired by the webcomic The Dragon Saves the Princess This Time, in which a knight attempts to 'rescue' a princess from the evil dragon. In a subversion of the usual trope, it turns out that the princess and dragon are actually friends, and the dragon is protecting her from unsuitable suitors.</p><p>I worked together with a team of three other students to translate the web comic into a 2D platformer game. My contributions included managing the project's Github repo, programming all of the UI and camera elements, and implementing the knight's gameplay. We all worked together on the game design, and my teammate's were completely responsible for the artwork, animations, and music.</p><p>One of the more experimental designs we implemented was making the knight's controls exclusive to the keyboard and the princess' exclusive to the mouse. Though the knight's controls are very traditional, using wasd and spacebar to jump, the Princess moves across the screen by using the scrollwheel, and all the rest of her abilities can be performed using right and left clicks.</p>",
 
     "platform": "Windows PC",
     "tools": "Unity3D",
@@ -33,12 +33,12 @@
   },
     {
     "name": "Unowned Collected",
-    "overview": "A generated board game, created from the rules of several existing games.",
+    "overview": "A board game experiment generated from the rules of several existing games.",
     "thumbnail": "/UnownedCollected4.png",
     "urlName":"unowned",
     "images":["/UnownedCollected.png","/UnownedCollected2.png"],
     "type":"games",
-    "description":"<p>My original idea was to make a board game by using the rule sets of existing games to generate my own rules, and I've pretty much stuck with the same idea throughout the process. I wanted to do this project for two main reasons. The first is that although this class is pretty much all about writing code, I wanted to have an output that had a physical form. The second reason is that I'm really passionate about games, and although I do really love video games, I also know that board games are in a bit of a 'renaissance' right now and I wanted to be a part of it. As a bit of background on that, board games are one of the most successful categories for Kickstarter, and in the U.S. at least there has been a renewed interest in board game cafes and tabletop stores.</p><p>Some of my inspiration also came from the games themselves. Although they are not generated games, many have generative aspects. Games like Carcassone, for example, do not come with a game board, but allow the players to build the playing field as the game progresses (most references to 'land tiles' in my game originated from Carcassone's rules). Another inspiration was a game I encountered in my Intro to Game Dev class called Life in the Garden, which is perhaps more story than game. The contents consists of a deck of cards, each with a couple of sentences on them. You shuffle them, draw a few, read them out, and a complete story can be made from any order. (http://www.electronicbookreview.com/thread/firstperson/edenic)</p>",
+    "description":"<p>Unowned Collected makes use of Python's Natural Language Toolkit to break down the structure of different board games' rulesets. The script I wrote first analyzes the language from each game, then generates a brand new game section by section. After running the program a few times, I took the text output and some images from the original rules and arranged them into a pamphlet using Adobe Illustrator.</p><p>This project was heavily inspired by Sol LeWitt's Wall Drawings. My philosophy is that all games can be considered generative art, and Unowned Collected is a literal expression of that idea.</p>",
 
     "platform": "Print",
     "tools": "Adobe Illustrator, NLTK",
@@ -48,7 +48,7 @@
   },
   {
     "name": "GATE",
-    "overview": "A 2D puzzle platformer about grappling hooks initially created for the game jam theme 'color'",
+    "overview": "A 2D puzzle platformer about grappling hooks. Initially created for the game jam theme 'color'",
     "thumbnail": "/gate.png",
     "urlName":"gate",
     "images":["/gate2.png"],
@@ -69,7 +69,7 @@
     "urlName":"nyc",
     "images":["/melding1.gif","/melding2.gif"],
     "type":"media",
-    "description":"<p>A E S T H E T I C</p><p>Pixelated vaporwave nonsense.</p>"
+    "description":"<p>The above artwork was created to express the homesickness and disaffection that I felt when living in New York City for the first time. These gifs were made by taking my own photographs and creating a Processing sketch to manipulate the images pixel by pixel.</p>"
   },
   {
     "name": "Forest Fire",
@@ -78,17 +78,7 @@
     "urlName":"forestfire",
     "images":["/forestfire3.jpg","/forestfire2.jpg"],
     "type":"media",
-    "description":"<p>Created by a Californian artist living in Asia, this project explores the beauty and destruction of wildfires through origami. Viewed from above, these origami trees resemble a colorful arrangement of flowers. From the side, however, their true form becomes cleaer.</p>"
-  },
-
-  {
-    "name": "Keepers of Ra",
-    "overview": "A transmedia storytelling project born out of a tabletop RPG campaign.",
-    "thumbnail": "/Ra2.png",
-    "urlName":"ra",
-    "images":["/Ra.png","/Ra3.png","/Ra4.png"],
-    "type":"media",
-    "description":"<p>A crossover between a New World of Darkness campaign and the real world.</p>"
+    "description":"<p>A California native, I created this project while living in Asia and witnessing California's yearly wildfires from afar. Forest Fire explores the beauty and destruction of wildfires through origami. Viewed from above, these origami trees resemble a colorful arrangement of flowers. From the side, however, their true form becomes cleaer.</p>"
   }
     ]
 }

@@ -29,7 +29,7 @@ class ProjectPage extends Component {
     return (
 
       <div className="ProjectPage">
-        <Carousel showThumbs = {false}  showStatus={false} infiniteLoop={true} width="600px">
+        <Carousel className= "car" showThumbs = {false}  showStatus={false} infiniteLoop={true} width="600px">
           {imageReel}
         </Carousel>
         

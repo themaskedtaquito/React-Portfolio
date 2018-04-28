@@ -7,7 +7,8 @@
     "react-dom": "^16.2.0",
     "react-responsive-carousel": "^3.1.36",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "homepage": "https://themaskedtaquito.github.io/portfolio"
   },
   "scripts": {
     "start": "react-scripts start",

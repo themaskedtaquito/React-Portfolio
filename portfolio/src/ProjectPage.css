@@ -3,6 +3,10 @@
 	height: 100vh;	
   	text-align: left;
 }
+
+.car{
+	margin-left: 275px;
+}
 .GRID{
 	display:grid;
 	grid-template-columns: 250px 78% auto;
